@@ -1,0 +1,35 @@
+{
+  "name": "birdGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwethaaa/callisto-rxjsBirdGame.git"
+  },
+  "keywords": [],
+  "author": "shwetha <shwetha.kumari@robosoftin.com>",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "rxjs": "^6.6.3",
+    "parcel": "1.12.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "typescript": "4.2.2"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "bugs": {
+    "url": "https://github.com/shwethaaa/callisto-rxjsBirdGame/issues"
+  },
+  "homepage": "https://github.com/shwethaaa/callisto-rxjsBirdGame#readme"
+}
